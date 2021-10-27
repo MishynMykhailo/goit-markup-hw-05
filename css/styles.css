@@ -95,6 +95,9 @@ li {
 .nav-list {
   display: flex;
 }
+.nav-item {
+  position: relative;
+}
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -142,6 +145,18 @@ li {
 }
 .link-hd.current {
   color: #2196f3;
+}
+.link-hd.current::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #2196f3;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  bottom: -1px;
 }
 .icon-header {
   fill: #757575;
