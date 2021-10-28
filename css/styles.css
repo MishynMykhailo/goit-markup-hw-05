@@ -335,8 +335,11 @@ position: absolute;
 }
 .ow-text-position-cont{
 position:absolute;
+top: 27px;
+right: 82px;
 bottom:27px;
 left:82px;
+overflow: hidden;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
