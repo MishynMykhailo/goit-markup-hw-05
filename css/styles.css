@@ -45,7 +45,6 @@ li {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
-  visibility: hidden;
   opacity: 0;
   pointer-events: none;
   
@@ -334,7 +333,10 @@ position: absolute;
   bottom: 0px;
 }
 .ow-text-position-cont{
-padding: 27px 82px 27px 82px;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -671,17 +673,20 @@ color: #FFFFFF;
   margin-right: -30px;
   margin-bottom: -30px;
 }
+
 .gallery-portf-list {
   margin-right: 30px;
   flex-basis: calc(100% - 3 * 30px)/30px);
   margin-bottom: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .gallery-portf-list:hover,.gallery-portf-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
   0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .text-filters {
   font-weight: 700;
   font-size: 18px;
