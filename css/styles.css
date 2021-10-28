@@ -69,15 +69,13 @@ position: absolute;
 }
 .button-hero-sect-closed {
   position: absolute;
-  top: 0%;
-  right: 0%;
+  top: 8px;
+  right: 8px;
 
   display: flex;
   height: 30px;
   width: 30px;
   padding: 0px 0px 0px 0px;
-  margin-right: 8px;
-  margin-top: 8px;
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
