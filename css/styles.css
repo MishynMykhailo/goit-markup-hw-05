@@ -656,16 +656,17 @@ fill: #ffffff;
   transform: translateY(-100%);
 }
 .gallery-absolut-text {
-  padding-top: 63px;
-  padding: 63px;
-  padding-left: 24px;
-  padding-right: 24px;
-  
-font-size: 18px;
-line-height: 1.33;
+  position: absolute;
+  top:63px;
+  left:24px;
+  right: 24px;
+  bottom: 63px;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 1.33;
 
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 
 }
 .item-gallery-portf {
